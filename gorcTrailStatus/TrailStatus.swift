@@ -7,6 +7,6 @@ struct TrailStatus {
     
     let name: String
     let area: String
-    let status: Status
+//    let status: Status
     let url: String
 }

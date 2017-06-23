@@ -5,6 +5,6 @@ extension TrailStatus {
         self.name = json["name"] as! String
         self.area = json["area"] as! String
         self.url = json["url"] as! String
-        self.status = Status(rawValue: json["status"] as! String)!
+//        self.status = Status(rawValue: json["status"] as! String)!
     }
 }

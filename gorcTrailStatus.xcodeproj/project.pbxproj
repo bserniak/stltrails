@@ -19,6 +19,7 @@
 		4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */; };
 		770F53AD1EFD489400E322DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F53AC1EFD489400E322DF /* MainViewController.swift */; };
 		770F53AF1EFD4AE100E322DF /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F53AE1EFD4AE100E322DF /* TrailView.swift */; };
+		770F53B11EFD60E500E322DF /* TrailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F53B01EFD60E500E322DF /* TrailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusInitializer.swift; sourceTree = "<group>"; };
 		770F53AC1EFD489400E322DF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		770F53AE1EFD4AE100E322DF /* TrailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
+		770F53B01EFD60E500E322DF /* TrailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */,
 				770F53AC1EFD489400E322DF /* MainViewController.swift */,
 				770F53AE1EFD4AE100E322DF /* TrailView.swift */,
+				770F53B01EFD60E500E322DF /* TrailTableViewCell.swift */,
 			);
 			path = gorcTrailStatus;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				770F53AF1EFD4AE100E322DF /* TrailView.swift in Sources */,
 				4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */,
+				770F53B11EFD60E500E322DF /* TrailTableViewCell.swift in Sources */,
 				4B2389221EC658DC007FB91E /* TrailStatus.swift in Sources */,
 				4B23891E1EC65481007FB91E /* TrailStatusService.swift in Sources */,
 				770F53AD1EFD489400E322DF /* MainViewController.swift in Sources */,

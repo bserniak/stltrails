@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view = trailView
+        self.trailView.delegate = self
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,5 +39,13 @@ class MainViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+}
+
+extension MainViewController: TrailViewProtocol {
+    func trailListUpdated(trailList: [TrailStatus]) {
+        DispatchQueue.main.async {
+            self.trailView.updateTrailList(trailList)
+        }
     }
 }
