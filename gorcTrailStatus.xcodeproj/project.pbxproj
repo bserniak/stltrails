@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B2388ED1EC65366007FB91E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2388EC1EC65366007FB91E /* AppDelegate.swift */; };
+		4B2388F51EC65366007FB91E /* gorcTrailStatus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B2388F31EC65366007FB91E /* gorcTrailStatus.xcdatamodeld */; };
+		4B2388F71EC65366007FB91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B2388F61EC65366007FB91E /* Assets.xcassets */; };
+		4B2388FA1EC65366007FB91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2388F81EC65366007FB91E /* LaunchScreen.storyboard */; };
+		4B2389051EC65367007FB91E /* gorcTrailStatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389041EC65367007FB91E /* gorcTrailStatusTests.swift */; };
+		4B2389101EC65367007FB91E /* gorcTrailStatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23890F1EC65367007FB91E /* gorcTrailStatusUITests.swift */; };
+		4B23891E1EC65481007FB91E /* TrailStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23891D1EC65481007FB91E /* TrailStatusService.swift */; };
+		4B2389201EC6555A007FB91E /* TrailStatusServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23891F1EC6555A007FB91E /* TrailStatusServiceTests.swift */; };
+		4B2389221EC658DC007FB91E /* TrailStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389211EC658DC007FB91E /* TrailStatus.swift */; };
+		4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B2389011EC65367007FB91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B2388E11EC65366007FB91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2388E81EC65366007FB91E;
+			remoteInfo = gorcTrailStatus;
+		};
+		4B23890C1EC65367007FB91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B2388E11EC65366007FB91E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B2388E81EC65366007FB91E;
+			remoteInfo = gorcTrailStatus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B2388E91EC65366007FB91E /* gorcTrailStatus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gorcTrailStatus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2388EC1EC65366007FB91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B2388F41EC65366007FB91E /* gorcTrailStatus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gorcTrailStatus.xcdatamodel; sourceTree = "<group>"; };
+		4B2388F61EC65366007FB91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B2388F91EC65366007FB91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B2388FB1EC65366007FB91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2389001EC65367007FB91E /* gorcTrailStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gorcTrailStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2389041EC65367007FB91E /* gorcTrailStatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gorcTrailStatusTests.swift; sourceTree = "<group>"; };
+		4B2389061EC65367007FB91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B23890B1EC65367007FB91E /* gorcTrailStatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gorcTrailStatusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B23890F1EC65367007FB91E /* gorcTrailStatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gorcTrailStatusUITests.swift; sourceTree = "<group>"; };
+		4B2389111EC65367007FB91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B23891D1EC65481007FB91E /* TrailStatusService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusService.swift; sourceTree = "<group>"; };
+		4B23891F1EC6555A007FB91E /* TrailStatusServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusServiceTests.swift; sourceTree = "<group>"; };
+		4B2389211EC658DC007FB91E /* TrailStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatus.swift; sourceTree = "<group>"; };
+		4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusInitializer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B2388E61EC65366007FB91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2388FD1EC65367007FB91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2389081EC65367007FB91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2388E01EC65366007FB91E = {
+			isa = PBXGroup;
+			children = (
+				4B2388EB1EC65366007FB91E /* gorcTrailStatus */,
+				4B2389031EC65367007FB91E /* gorcTrailStatusTests */,
+				4B23890E1EC65367007FB91E /* gorcTrailStatusUITests */,
+				4B2388EA1EC65366007FB91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B2388EA1EC65366007FB91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B2388E91EC65366007FB91E /* gorcTrailStatus.app */,
+				4B2389001EC65367007FB91E /* gorcTrailStatusTests.xctest */,
+				4B23890B1EC65367007FB91E /* gorcTrailStatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B2388EB1EC65366007FB91E /* gorcTrailStatus */ = {
+			isa = PBXGroup;
+			children = (
+				4B2388EC1EC65366007FB91E /* AppDelegate.swift */,
+				4B2388F61EC65366007FB91E /* Assets.xcassets */,
+				4B2388F81EC65366007FB91E /* LaunchScreen.storyboard */,
+				4B2388FB1EC65366007FB91E /* Info.plist */,
+				4B2388F31EC65366007FB91E /* gorcTrailStatus.xcdatamodeld */,
+				4B23891D1EC65481007FB91E /* TrailStatusService.swift */,
+				4B2389211EC658DC007FB91E /* TrailStatus.swift */,
+				4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */,
+			);
+			path = gorcTrailStatus;
+			sourceTree = "<group>";
+		};
+		4B2389031EC65367007FB91E /* gorcTrailStatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B2389041EC65367007FB91E /* gorcTrailStatusTests.swift */,
+				4B2389061EC65367007FB91E /* Info.plist */,
+				4B23891F1EC6555A007FB91E /* TrailStatusServiceTests.swift */,
+			);
+			path = gorcTrailStatusTests;
+			sourceTree = "<group>";
+		};
+		4B23890E1EC65367007FB91E /* gorcTrailStatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B23890F1EC65367007FB91E /* gorcTrailStatusUITests.swift */,
+				4B2389111EC65367007FB91E /* Info.plist */,
+			);
+			path = gorcTrailStatusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B2388E81EC65366007FB91E /* gorcTrailStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2389141EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatus" */;
+			buildPhases = (
+				4B2388E51EC65366007FB91E /* Sources */,
+				4B2388E61EC65366007FB91E /* Frameworks */,
+				4B2388E71EC65366007FB91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gorcTrailStatus;
+			productName = gorcTrailStatus;
+			productReference = 4B2388E91EC65366007FB91E /* gorcTrailStatus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B2388FF1EC65367007FB91E /* gorcTrailStatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B2389171EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusTests" */;
+			buildPhases = (
+				4B2388FC1EC65367007FB91E /* Sources */,
+				4B2388FD1EC65367007FB91E /* Frameworks */,
+				4B2388FE1EC65367007FB91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B2389021EC65367007FB91E /* PBXTargetDependency */,
+			);
+			name = gorcTrailStatusTests;
+			productName = gorcTrailStatusTests;
+			productReference = 4B2389001EC65367007FB91E /* gorcTrailStatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B23890A1EC65367007FB91E /* gorcTrailStatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B23891A1EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusUITests" */;
+			buildPhases = (
+				4B2389071EC65367007FB91E /* Sources */,
+				4B2389081EC65367007FB91E /* Frameworks */,
+				4B2389091EC65367007FB91E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B23890D1EC65367007FB91E /* PBXTargetDependency */,
+			);
+			name = gorcTrailStatusUITests;
+			productName = gorcTrailStatusUITests;
+			productReference = 4B23890B1EC65367007FB91E /* gorcTrailStatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B2388E11EC65366007FB91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sern.labs;
+				TargetAttributes = {
+					4B2388E81EC65366007FB91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					4B2388FF1EC65367007FB91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B2388E81EC65366007FB91E;
+					};
+					4B23890A1EC65367007FB91E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B2388E81EC65366007FB91E;
+					};
+				};
+			};
+			buildConfigurationList = 4B2388E41EC65366007FB91E /* Build configuration list for PBXProject "gorcTrailStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B2388E01EC65366007FB91E;
+			productRefGroup = 4B2388EA1EC65366007FB91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B2388E81EC65366007FB91E /* gorcTrailStatus */,
+				4B2388FF1EC65367007FB91E /* gorcTrailStatusTests */,
+				4B23890A1EC65367007FB91E /* gorcTrailStatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B2388E71EC65366007FB91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2388FA1EC65366007FB91E /* LaunchScreen.storyboard in Resources */,
+				4B2388F71EC65366007FB91E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2388FE1EC65367007FB91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2389091EC65367007FB91E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B2388E51EC65366007FB91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */,
+				4B2389221EC658DC007FB91E /* TrailStatus.swift in Sources */,
+				4B23891E1EC65481007FB91E /* TrailStatusService.swift in Sources */,
+				4B2388F51EC65366007FB91E /* gorcTrailStatus.xcdatamodeld in Sources */,
+				4B2388ED1EC65366007FB91E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2388FC1EC65367007FB91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2389201EC6555A007FB91E /* TrailStatusServiceTests.swift in Sources */,
+				4B2389051EC65367007FB91E /* gorcTrailStatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B2389071EC65367007FB91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2389101EC65367007FB91E /* gorcTrailStatusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B2389021EC65367007FB91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B2388E81EC65366007FB91E /* gorcTrailStatus */;
+			targetProxy = 4B2389011EC65367007FB91E /* PBXContainerItemProxy */;
+		};
+		4B23890D1EC65367007FB91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B2388E81EC65366007FB91E /* gorcTrailStatus */;
+			targetProxy = 4B23890C1EC65367007FB91E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B2388F81EC65366007FB91E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B2388F91EC65366007FB91E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B2389121EC65367007FB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B2389131EC65367007FB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B2389151EC65367007FB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gorcTrailStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4B2389161EC65367007FB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = gorcTrailStatus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4B2389181EC65367007FB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gorcTrailStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorcTrailStatus.app/gorcTrailStatus";
+			};
+			name = Debug;
+		};
+		4B2389191EC65367007FB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = gorcTrailStatusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorcTrailStatus.app/gorcTrailStatus";
+			};
+			name = Release;
+		};
+		4B23891B1EC65367007FB91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gorcTrailStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gorcTrailStatus;
+			};
+			name = Debug;
+		};
+		4B23891C1EC65367007FB91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = gorcTrailStatusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sern.labs.gorcTrailStatusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = gorcTrailStatus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B2388E41EC65366007FB91E /* Build configuration list for PBXProject "gorcTrailStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2389121EC65367007FB91E /* Debug */,
+				4B2389131EC65367007FB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B2389141EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2389151EC65367007FB91E /* Debug */,
+				4B2389161EC65367007FB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B2389171EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B2389181EC65367007FB91E /* Debug */,
+				4B2389191EC65367007FB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B23891A1EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B23891B1EC65367007FB91E /* Debug */,
+				4B23891C1EC65367007FB91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4B2388F31EC65366007FB91E /* gorcTrailStatus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4B2388F41EC65366007FB91E /* gorcTrailStatus.xcdatamodel */,
+			);
+			currentVersion = 4B2388F41EC65366007FB91E /* gorcTrailStatus.xcdatamodel */;
+			path = gorcTrailStatus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4B2388E11EC65366007FB91E /* Project object */;
+}
