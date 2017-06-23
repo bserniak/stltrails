@@ -17,6 +17,8 @@
 		4B2389201EC6555A007FB91E /* TrailStatusServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B23891F1EC6555A007FB91E /* TrailStatusServiceTests.swift */; };
 		4B2389221EC658DC007FB91E /* TrailStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389211EC658DC007FB91E /* TrailStatus.swift */; };
 		4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */; };
+		770F53AD1EFD489400E322DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F53AC1EFD489400E322DF /* MainViewController.swift */; };
+		770F53AF1EFD4AE100E322DF /* TrailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F53AE1EFD4AE100E322DF /* TrailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4B23891F1EC6555A007FB91E /* TrailStatusServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusServiceTests.swift; sourceTree = "<group>"; };
 		4B2389211EC658DC007FB91E /* TrailStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatus.swift; sourceTree = "<group>"; };
 		4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailStatusInitializer.swift; sourceTree = "<group>"; };
+		770F53AC1EFD489400E322DF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		770F53AE1EFD4AE100E322DF /* TrailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 				4B23891D1EC65481007FB91E /* TrailStatusService.swift */,
 				4B2389211EC658DC007FB91E /* TrailStatus.swift */,
 				4B2389251EC65EA0007FB91E /* TrailStatusInitializer.swift */,
+				770F53AC1EFD489400E322DF /* MainViewController.swift */,
+				770F53AE1EFD4AE100E322DF /* TrailView.swift */,
 			);
 			path = gorcTrailStatus;
 			sourceTree = "<group>";
@@ -267,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				770F53AF1EFD4AE100E322DF /* TrailView.swift in Sources */,
 				4B2389261EC65EA0007FB91E /* TrailStatusInitializer.swift in Sources */,
 				4B2389221EC658DC007FB91E /* TrailStatus.swift in Sources */,
 				4B23891E1EC65481007FB91E /* TrailStatusService.swift in Sources */,
+				770F53AD1EFD489400E322DF /* MainViewController.swift in Sources */,
 				4B2388F51EC65366007FB91E /* gorcTrailStatus.xcdatamodeld in Sources */,
 				4B2388ED1EC65366007FB91E /* AppDelegate.swift in Sources */,
 			);
@@ -509,6 +517,7 @@
 				4B2389161EC65367007FB91E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B2389171EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				4B2389191EC65367007FB91E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B23891A1EC65367007FB91E /* Build configuration list for PBXNativeTarget "gorcTrailStatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				4B23891C1EC65367007FB91E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
