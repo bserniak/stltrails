@@ -45,19 +45,6 @@ class TrailView: UIView, UITableViewDelegate, UITableViewDataSource {
     
     func updateTrailList(_ trailList: [TrailStatus]) {
         self.trails = trailList
-        for index in 0...self.trails.count {
-            
-            let labelToAdd = UILabel()
-            self.labelArray.append(labelToAdd)
-            labelToAdd.translatesAutoresizingMaskIntoConstraints = false
-            labelToAdd.widthAnchor.constraint(equalTo: self.widthAnchor, multiplier: 1/4).isActive = true
-            labelToAdd.heightAnchor.constraint(equalTo: self.widthAnchor).isActive = true
-            labelToAdd.backgroundColor = .white
-            labelToAdd.layer.borderColor = UIColor.red.cgColor
-            labelToAdd.layer.borderWidth = 1
-            labelToAdd.layer.cornerRadius = 10
-            labelToAdd.text = self.trails[index].name
-        }
 
         self.trailListTableView.reloadData()
     }
