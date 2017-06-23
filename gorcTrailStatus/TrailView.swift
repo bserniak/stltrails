@@ -1,7 +1,10 @@
 import UIKit
 
 class TrailView: UIView {
-    init() {
+    let trailService: TrailStatusService
+    init(trailService:TrailStatusService = TrailStatusService()) {
+        self.trailService = trailService
+        
         super.init(frame: CGRect.zero)
         backgroundColor = .gray
     }
